@@ -1,0 +1,112 @@
+/* 参数展示卡片 */
+.parameter-bac{
+  width: 690rpx;
+  height: 308rpx;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 6rpx 24rpx #d0d0d0;
+  position: fixed;
+  top:20rpx;
+  left: 30rpx;
+  }
+  .item{
+    width: 610rpx;
+    height: 230rpx;
+    margin: 0px auto;
+    margin-top: 45rpx;
+  }
+  .parameter-left{
+    float: left;
+    width:338rpx;
+    height: 230rpx;
+    }
+  .parameter-middle{
+    float: left;
+    width:2rpx;
+    height: 230rpx;
+    background: #e5e5e5;
+    }
+  .parameter-right{
+    float: left;
+    margin-left: 30rpx;
+    }
+  .parameter{
+    font-size: 30rpx;
+    color: #333;
+    line-height: 42rpx;
+  }
+  /* 连接状态 */
+  .link-status{
+    width: 150rpx;
+    float: left;
+  }
+  .status{
+    width: 176rpx;
+    float: left;
+    font-size: 30rpx;
+    color: #68e580;
+    line-height: 42rpx;
+    }
+    /* 设备卡号 */
+  .card-number{
+    width: 150rpx;
+    float: left;
+  }
+  .number{
+    width: 176rpx;
+    float: left;
+    font-size: 30rpx;
+    color: #68e580;
+    line-height: 42rpx;
+    }
+    /* 经纬度 */
+  .longitude,.latitude{
+    font-size: 30rpx;
+    color: #68e580;
+    line-height: 42rpx;
+  }
+  /* 波速条范围 */
+  .wave-speed-rectangle{
+    width: 230rpx;
+    height:110rpx;
+  }
+  /* 剩余电量 */
+  .battery-level{
+    width: 145rpx;
+    float: left;
+  }
+  .percent{
+    width: 80rpx;
+    float: left;
+    font-size: 30rpx;
+    color: #68e580;
+    line-height: 42rpx;
+    }
+/* 发报文按钮 */
+  .send-massage{
+    display: block;
+    width: 260rpx;
+    height: 88rpx;
+    background: #5485f7;
+    border-radius:44rpx;
+    color: white;
+    font-weight: bold;
+    font-size: 30rpx;
+    line-height: 88rpx;
+    /* box-shadow: 0 2rpx 12rpx #7aa1fc; */
+  }
+  .receive-massage{
+    display: block;
+    width: 260rpx;
+    height: 88rpx;
+    background: #fff;
+    border-radius:44rpx;
+    color: #5485f7;
+    font-weight: bold;
+    font-size: 30rpx;
+    line-height: 88rpx;
+    /* box-shadow: 0 2rpx 12rpx #7aa1fc; */
+    border: 1rpx solid #5485f7;
+  }
+
+.cont-send-massage{position: fixed;bottom:100rpx;left: 90rpx;height: 100rpx;}
+.cont-receive-massage{position: fixed;bottom: 100rpx;right: 90rpx;height: 100rpx;}
