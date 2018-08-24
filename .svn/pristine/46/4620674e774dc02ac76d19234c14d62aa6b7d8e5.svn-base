@@ -1,0 +1,95 @@
+page{background: #f4f4f4;}
+/* 收件箱/已发送 */
+.tab{
+  width: 750rpx;
+  height:78rpx;
+  background: white;
+  padding-top: 12rpx;
+  margin-bottom: 20rpx;
+}
+.cont{
+  width: 430rpx;
+  height:64rpx;
+  border-radius: 8rpx;
+  border: 2rpx solid #5485f7;
+  margin: 0rpx auto;
+}
+.tabReceive{
+  width: 215rpx;
+  height:64rpx;
+  float: left;
+  background:#5485f7;
+  /* border-radius: 8rpx 0rpx 0rpx 8rpx; */
+}
+.tabSend{
+  width: 217rpx;
+  height:64rpx;
+  float: left;
+  background:white;
+  font-size: 30rpx;
+  text-align: center;
+  line-height: 64rpx;
+}
+.cont text{
+  font-size: 30rpx;
+  margin-left: 63rpx;
+  line-height: 64rpx;
+}
+.Checked{
+  color: white;
+  background: #5485f7;
+}
+.unChecked{
+  color: #5485f7;
+  background:white;
+}
+  /* 消息列表 */
+  .item{
+    background:white;
+    width: 750rpx;
+    margin-bottom: 2rpx;
+    
+   
+  }
+.left{
+  padding-top: 20rpx;
+}
+.cardNumber{
+ width: 652rpx;
+ float: left;
+ 
+}
+.itemReceive .cardNumber text{
+  font-size: 32rpx;
+  color: #5485f7;
+  font-weight: bold;
+  margin-left: 30rpx;
+  
+}
+.itemSend .cardNumber text{
+  font-size: 32rpx;
+  color: #68e580;
+  font-weight: bold;
+  margin-left: 30rpx;
+  
+}
+.time{
+  width: 98rpx;
+  float: right;
+  
+}
+.time text{
+  font-size: 24rpx;
+  color: #9b9b9b;
+}
+.content{
+  width: 652rpx;
+  margin-left: 30rpx;
+  padding-bottom: 20rpx;
+}
+.content text{
+  
+  font-size: 28rpx;
+  color: #9b9b9b;
+  
+}

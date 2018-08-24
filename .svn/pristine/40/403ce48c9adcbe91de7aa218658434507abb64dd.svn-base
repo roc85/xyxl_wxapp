@@ -1,0 +1,19 @@
+//test.js
+//获取应用实例
+var app = getApp()
+Page({
+  data: {
+    userInfo: {},
+    tabIndex:0,
+  },
+  onLoad: function () {
+    console.log('onLoad main');
+  },
+   bindClick:function(event){
+     console.log(JSON.stringify(event))
+     this.setData({
+       tabIndex:event.target.id
+     })
+   } 
+
+})

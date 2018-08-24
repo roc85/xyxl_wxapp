@@ -66,47 +66,8 @@
   }
   /* 波速条范围 */
   .wave-speed-rectangle{
-    width: 100%;
-    height:80rpx;
-    /* background: pink; */
-    padding-top: 15rpx;
-  }
-  .wave-speed-cont cover-image{
-    width: 100%;
-    height:100%;
-  }
-  .w0{
-    float: left;
-    margin-right: 10rpx;
-    /* background: blue; */
-    width: 12rpx;
-    height:30rpx;
-    
-  }
-  .w1{
-    /* margin-left: 5rpx; */
-  }
-  .number-cont{
-    margin-top: 10rpx;
-    /* width: 230rpx; */
-    height:20rpx;
-    /* background: #f4f4f4; */
-    /* border-radius: 4rpx; */
-  }
-  .num{
-    width: 12rpx;
-    height:20rpx;
-    float: left;
-    font-size: 18rpx;
-    /* margin-right: 10rpx; */
-    background: #f1f1f1;
-    padding-right: 10rpx;
-
-    
-  }
-  /* .num1{margin-left: 5rpx;} */
-  .number-cont .ten{
-    width: 20rpx;
+    width: 230rpx;
+    height:110rpx;
   }
   /* 剩余电量 */
   .battery-level{
@@ -133,16 +94,6 @@
     line-height: 88rpx;
     /* box-shadow: 0 2rpx 12rpx #7aa1fc; */
   }
-  .new-message{
-    width: 34rpx;
-    height:26rpx;
-    background: pink;
-    float: right;
-    margin-right: 22rpx;
-    margin-top: 30rpx;
-  }
-  
-  
   .receive-massage{
     display: block;
     width: 260rpx;
@@ -155,39 +106,10 @@
     line-height: 88rpx;
     /* box-shadow: 0 2rpx 12rpx #7aa1fc; */
     border: 1rpx solid #5485f7;
-   
-  }
-  .receive-massage-button{
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: #fff;
-    border-radius:44rpx;
-    color: #5485f7;
-    font-weight: bold;
-    font-size: 30rpx;
-    line-height: 88rpx;
   }
 
-.cont-send-massage{
-  position: fixed;
-  bottom:100rpx;
-  left: 90rpx;
-  height: 100rpx;
-  }
-.cont-receive-massage{
-  position: fixed;
-  bottom: 100rpx;
-  right: 90rpx;
-  height: 100rpx;
-  }
-.new-message{
-  width: 34rpx;
-  height: 26rpx;
-  background: black;
-  position: fixed;
-  bottom:144rpx;
-  left: 604rpx;
-}
+.cont-send-massage{position: fixed;bottom:100rpx;left: 90rpx;height: 100rpx;}
+.cont-receive-massage{position: fixed;bottom: 100rpx;right: 90rpx;height: 100rpx;}
 
 
+ 

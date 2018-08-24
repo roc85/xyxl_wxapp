@@ -1,0 +1,17 @@
+<view class='page'>
+<!-- 1像素线 -->
+<view class='line'></view>
+<!-- 输入北斗卡号 -->
+  <view class='add-number'>
+    <text class='bd-number' maxlength="6" focus="true">北斗卡号：</text>
+    <input class='number' bindinput='confirm'  ></input>
+  </view>
+<!-- 输入报文 -->
+<view class='input-massage'>
+  <input cursor-spacing="50" confirm-type='send'></input>
+  <view class='word-number'>
+   <text>{{wordnumber}}</text>/30
+  </view>
+  
+</view>
+</view>

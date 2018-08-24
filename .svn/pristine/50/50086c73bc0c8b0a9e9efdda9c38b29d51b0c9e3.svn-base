@@ -1,0 +1,41 @@
+<view class="page">
+  <view class='tab'>
+    <view class='cont'>
+      <view class="tabReceive {{tabIndex==0?'Checked':'unChecked'}}" id="0" bindtap='bindClick'>
+        <text class="{{tabIndex==0?'Checked':'unChecked'}}" bindtap='bindClick'>收件箱</text>
+      </view>
+      <view class="tabSend  {{tabIndex==1?'Checked':'unChecked'}}" id="1" bindtap='bindClick'>
+        <!-- <text class="{{tabIndex==1?'Checked':'unChecked'}}" bindtap='bindClick'>已发送</text> -->已发送
+      </view>
+    </view>
+  </view>
+  <!-- 消息列表 -->
+  <view class='list'>
+    <view class='item itemSend' >
+      <view class='left'>
+        <view class='cardNumber'>
+          <text>{{itemSend.cardNumber}}1569787</text>
+        </view>
+        <view class='time'>
+          <text>{{itemSend.time}}12:23</text>
+        </view>
+      </view>
+        <view class='content'>
+          <text>{{itemSend.content}}你到哪里了？你到哪里了？你到哪里了？你到哪里了？你到哪里了？你到哪里了？你到哪里了？你到哪里了？你到哪里了？</text>
+        </view>
+    </view>
+    <view class='item itemReceive' >
+      <view class='left'>
+        <view class='cardNumber'>
+          <text>{{itemReceive.cardNumber}}1569787</text>
+        </view>
+        <view class='time'>
+          <text>{{itemReceive.time}}12:23</text>
+        </view>
+      </view>
+        <view class='content'>
+          <text>{{itemReceive.content}}你到哪里了？你到哪里了？你到哪里了？你到哪里了？你到哪里了？你到哪里了？你到哪里了？你到哪里了？你到哪里了？</text>
+        </view>
+    </view>
+  </view>
+</view>

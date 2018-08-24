@@ -1,0 +1,62 @@
+page{
+  background-color: #f4f4f4;
+}
+.add-number{
+  width: 750rpx;
+  height: 100rpx;
+  background: #fff;
+}
+.bd-number{
+  display: block;
+  font-size: 32rpx;
+  color: #4d75ec;
+  line-height: 100rpx;
+  float: left;
+  margin-left: 30rpx;
+}
+/* 1像素线 */
+.line{
+  width: 100%;
+  height: 1rpx;
+  background: #d2d2d2;
+}
+/* 输入的卡号 */
+.number{
+  color: #333;
+  font-size: 32rpx;
+  display: block;
+  height: 100rpx;
+  float: left;
+}
+
+.input-massage{
+  width: 750rpx;
+  height:120rpx;
+  background: #f1f1f1;
+  position: relative;
+  position: fixed;
+  bottom: 0rpx;
+}
+.input-massage input{
+  width: 596rpx;
+  height: 88rpx;
+  background: #fff;
+  display: block;
+  border-radius: 10rpx;
+  position: absolute;
+  top:16rpx;
+  left: 30rpx;
+  font-size: 30rpx;
+  color: #000;
+  
+}
+.word-number{
+  font-size: 32rpx;
+  color: #666;
+  position: absolute;
+  right:20rpx;
+  top:40rpx;
+}
+.word-number text{
+  color: #68e580;
+}

@@ -1,0 +1,104 @@
+<view class='page'>
+
+  <!-- map.wxml -->
+  <map id='map'  markers='{{markers}}' scale='18' style='width:100%;height:1206rpx'>  
+    
+      <cover-view class='parameter-bac'>
+        <cover-view class='item'>
+        <!-- 左边参数 -->
+          <cover-view class='parameter-left'>
+          <!-- 蓝牙连接状态 -->
+            <cover-view class='link-status-cont' bindtap=''>
+              <cover-view class='parameter link-status'>连接状态：</cover-view>
+              <cover-view class='status'>{{item.bluetooth}}蓝牙已连接</cover-view>
+            </cover-view>
+            <!-- 设备卡号 -->
+            <cover-view class='card-number-cont'>
+              <cover-view class='parameter card-number'>设备卡号：</cover-view>
+              <cover-view class='number'>{{item.cardnumber}}236588</cover-view>
+            </cover-view>
+            <!-- 经纬度 -->
+            <cover-view class='parameter longitude-latitude'> 精度纬度：</cover-view>
+            <cover-view class='longitude'>{{item.longitude}}N32°06′19.63″</cover-view>
+            <cover-view class='latitude'>{{item.latitude}}E118°54′9.27″</cover-view>
+          </cover-view>
+          <cover-view class='parameter-middle'></cover-view>
+          <!-- 右边参数 -->
+          <cover-view class='parameter-right'>
+            <!-- 波速 -->
+            <cover-view class='parameter wave-speed'>波速： </cover-view>
+            <cover-view class='wave-speed-rectangle'>
+              <cover-view class='wave-speed-cont'>
+                <cover-view class='w0 w1'>
+                  <cover-image src='img/wave1.png'></cover-image>
+                </cover-view>
+                <cover-view class='w0'>
+                  <cover-image src='img/wave1.png'></cover-image>
+                </cover-view>
+                <cover-view class='w0'>
+                  <cover-image src='img/wave1.png'></cover-image>
+                </cover-view>
+                <cover-view class='w0'>
+                  <cover-image src='img/wave2.png'></cover-image>
+                </cover-view>
+                <cover-view class='w0'>
+                  <cover-image src='img/wave1.png'></cover-image>
+                </cover-view>
+                <cover-view class='w0'>
+                  <cover-image src='img/wave4.png'></cover-image>
+                </cover-view>
+                <cover-view class='w0'>
+                  <cover-image src='img/wave1.png'></cover-image>
+                </cover-view>
+                <cover-view class='w0'>
+                  <cover-image src='img/wave1.png'></cover-image>
+                </cover-view>
+                <cover-view class='w0'>
+                  <cover-image src='img/wave1.png'></cover-image>
+                </cover-view>
+                <cover-view class='w0'>
+                  <cover-image src='img/wave1.png'></cover-image>
+                </cover-view>
+              </cover-view>
+
+              <cover-view class='number-cont'>
+                <cover-view class='num num1'>1</cover-view>
+                <cover-view class='num'>2</cover-view>
+                <cover-view class='num'>3</cover-view>
+                <cover-view class='num'>4</cover-view>
+                <cover-view class='num'>5</cover-view>
+                <cover-view class='num'>6</cover-view>
+                <cover-view class='num'>7</cover-view>
+                <cover-view class='num'>8</cover-view>
+                <cover-view class='num'>9</cover-view>
+                <cover-view class='num ten'>10</cover-view>
+                
+              </cover-view>
+
+            </cover-view>
+            <!-- 剩余电量 -->
+            <cover-view class='battery-level-cont'>
+              <cover-view class='parameter battery-level'>剩余电量：</cover-view>
+              <cover-view class='percent'>{{item.battery}}100%</cover-view>
+            </cover-view>
+          </cover-view>
+        </cover-view>
+      </cover-view>
+      <!-- 发报文按钮 -->
+      <cover-view class='cont-send-massage'>
+          <button class='send-massage' bindtap='toSendMessage'>发报文</button>
+      </cover-view>
+      <!-- 收发列表按钮 -->
+      <cover-view class='cont-receive-massage'>
+        <cover-view class='receive-massage' bindtap='toMessageList'>
+         <button class='receive-massage-button'> 收发列表</button>
+        </cover-view>
+      </cover-view>
+
+      <cover-view class='new-message'>
+        <cover-image src='img/new-message.png'></cover-image>
+      </cover-view>
+    
+    
+  </map>
+</view>
